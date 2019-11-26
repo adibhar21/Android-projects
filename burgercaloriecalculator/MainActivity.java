@@ -1,4 +1,4 @@
-package edu.niu.z1807314.burgercaloriecalculator;
+
 
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
