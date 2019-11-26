@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.niu.cs.adityabharadwaj.championstrophy.FifthActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Home3"
+        android:text="HOME" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary :\n\nManchester United F.C. is a football club that plays in the Premier League. They play their home games at Old Trafford which is in Greater Manchester.\n\n Matt Busby led the club to lots of success by using the youth players until the Munich air disaster in 1958, where many United footballers and staff died. Sir Alex Ferguson led the club to many titles, including the treble (Premier League, FA Cup, and Champions League), from 1986 to 2013, when he retired. The club has 3 UEFA Champions League titles, 20 league titles, 12 FA Cups, and a FIFA Club World Cup.\n\n Roster :\n\n 1. Paul Pogba 24, M(C)\n 2. Romelu Lukaku 24, FW\n 3. Henrikh Mkhitaryan 28, M(CLR)\n 4. Ashley Young 32, D(LR),M(LR)\n 5. Marouane Fellaini 29, M(C)\n 6. Nemanja Matic 29, DMC\n 7. Marcus Rashford 19, AM(LR),FW\n 8. Phil Jones 25, D(CR),DMC\n 9. Antonio Valencia 32, D(R),M(R)\n 10. Eric Bailly 23, D(CR)\n 11. Daley Blind 27, D(CL),DMC,M(L)\n 12. David de Gea 26, GK\n 13. Anthony Martial 21, AM(LR),FW\n 14. Chris Smalling 27, D(CR)\n 15. Juan Mata 29, AM(CLR)\n 16. Jesse Lingard 24, AM(CLR)\n 17. Ander Herrera 28, M(C)\n 18. Matteo Darmian 27, D(CLR),M(LR)\n\n\n EUFA : 3\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </ScrollView>
+
+</RelativeLayout>

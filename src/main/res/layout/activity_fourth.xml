@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.niu.cs.adityabharadwaj.championstrophy.FourthActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Home2"
+        android:text="HOME" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary :\n\nReal Madrid Club de Fútbol, sometimes known as Real Madrid C.F. and just Real Madrid, is a Spanish football club. It was started in 1902 and competes in La Liga (the Spanish top league). The &quot;Real&quot; in the club's name is Spanish for &quot;royal&quot;, because it was blessed by the King of Spain in 1920.\n\n Real Madrid has won the La Liga league 33 times and the Copa del Rey cup 19 times, the most of out any team in the league. It has also won the European Champions League a record 12 times and the UEFA Cup twice.\n\n Since it began, Real Madrid has since spent all of its history in La Liga, and has never been relegated down to a lower level. This shows how strong they have been just to stay in the top flight of Spanish football. In the 1940s, the club, the Santiago Bernabéu Stadium and the Ciudad Deportiva were rebuilt after the Spanish Civil War. The club became a major force in both Spanish and European football during the 1950s. In the 1980s, the club had one of the best teams in Spain and Europe (known as La Quinta del Buitre). They had won two UEFA Cups, five Spanish championships in a row, one Spanish cup and three Spanish Super Cups.\n\n The club has bought and had many famous footballers, including Ronaldo, David Beckham, Zinedine Zidane, Michael Owen, Cristiano Ronaldo, Kaká and other very famous footballers. The most expensive player is Gareth Bale who was bought for 85.3 million pounds from Tottenham Hotspur of the English Premier League.\n\n The club's traditional home colours are all white. Its crest has been changed several times in attempts to modernise or re-brand. The current crest is a modified version of the one first adopted in the 1920s. Real's home is the 80,354-person-capacity Santiago Bernabéu Stadium in Madrid, where it has played since 1947. Unlike most European football clubs, Real Madrid's members (socios) have owned and operated the club since it was opened. Real is the world's most valuable club\n\nRoster :\n\n 1. Cristiano Ronaldo 32, M(L),FW\n 2. Toni Kroos 27, M(C)\n 3. Gareth Bale 28, M(CLR),FW\n 4. Casemiro 25, DMC\n 5. Achraf Hakimi 18, Defender\n 6. Isco 25, AM(CLR),FW\n 7. Marco Asensio 21, AM(CLR)\n 8. Dani Ceballos 21, M(CL)\n 9. Daniel Carvajal 25, D(R)\n 10. Marcelo 29, D(L)\n 11. Sergio Ramos 31, D(CR)\n 12. Keylor Navas 30, GK\n 13. Luka Modric 32, M(C)\n 14. Theo Hernández 20, D(L)\n 15. Karim Benzema 29, FW\n 16. Nacho 27, D(CLR)\n 17. Raphael Varane 24, D(C)\n 18. Lucas Vázquez 26, AM(R)\n 19. Borja Mayoral 20, FW\n 20. Marcos Llorente 22, DMC\n 21. Kiko Casilla 31, GK\n 22. Mateo Kovacic 23, M(CL)\n\n\nEUFA wins : 12\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </ScrollView>
+
+</RelativeLayout>

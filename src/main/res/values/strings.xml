@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChampionsTrophy</string>
+    <string-array name="Champions_list">
+        <item>Select</item>
+        <item>Barcelona</item>
+        <item>Bayern Munich</item>
+        <item>Real Madrid</item>
+        <item>Manchester United</item>
+        <item>Paris Saint German</item>
+    </string-array>
+</resources>

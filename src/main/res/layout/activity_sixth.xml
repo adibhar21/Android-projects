@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.niu.cs.adityabharadwaj.championstrophy.SixthActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Home4"
+        android:text="HOME" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary :\n\nParis Saint-Germain F.C., also abbreviated as PSG, is a football club in France. It is based in Paris, the capital city and most populated city of France. They have been champions of Ligue 1 6 times (1985/1986, 1993/1994) including each of the last four seasons (2012/13, 2013/14, 2014/15 and 2015/16). They have been champions of Ligue 2 once (1970/1971). They play their home games at the Parc des Princes.\n\n Roster :\n\n1. Neymar 25, AM(CLR),FW\n 2. Kylian Mbappe 18, AM(R),FW\n 3. Dani Alves 34, D(R),M(R)\n 4. Edinson Cavani 30, AM(LR),FW\n 5. Adrien Rabiot 22, DMC\n 6. Thomas Meunier 26, D(R)\n 7. Javier Pastore 28, AM(CLR)\n 8. Thiago Motta 35, M(C)\n 9. Layvin Kurzawa 25, D(L)\n 10. Marquinhos 23, D(CR)\n 11. Julian Draxler 24, AM(CLR)\n 12. Thiago Silva 33, D(C)\n 13. Yuri 27, D(L)\n 14. Ángel Di María 29, M(CLR)\n 15. Presnel Kimpembe 22, D(C)\n 16. Marco Verratti 24, DMC\n 17. Alphonse Areola 24, GK\n 18. Lucas Moura 25, AM(CLR)\n 19. Giovani Lo Celso 21, AM(C)\n 20. Christopher Nkunku 19, M(C)\n 21. Blaise Matuidi 30, M(CL)\n 22. Gonçalo Guedes 20, AM(R),FW\n\n\n EUFA : 0\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </ScrollView>
+
+</RelativeLayout>

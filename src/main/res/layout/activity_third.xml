@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.niu.cs.adityabharadwaj.championstrophy.ThirdActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="home1"
+        android:text="HOME" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary:\n\nFC Bayern Munich, also known as FC Bayern München, is a German football club. The club was founded in 1900 and has over 200,000 paying members. It has won the most titles in the Bundesliga and in the German cup. The football team is playing in the Allianz Arena. The team also has the most supporters in all of Germany. Bayern Munich won its first national title in 1932. This was the last season before the Nazi Regime took over the power. Bayern Munich was blamed to be a 'Club of Jews', the president, Kurt Landauer, was forced to flee and several players were punished. After the war ended, erroneously the local rival 1860 München was considered to be better and let into the first German league. But in the first season 1963, Bayern Munich won most of its games, ascended into the first league and still plays there without any descend. Bayern Munich won the UEFA Champions League in 2001 and in 2013. 2013 also was the year of the victory of the historic triple - an achievement no other German club ever gained before.\n\nRoster :\n\n1. Arturo Vidal 30, M(C)\n 2. Robert Lewandowski 29, FW\n 3. Joshua Kimmich 22, D(CR),DMC\n 4. James Rodríguez 26, AM(CLR)\n 5. Thiago Alcántara 26, M(C)\n 6. Corentin Tolisso 23, D(R),M(C)\n 7. Javi Martínez 29, D(C),M(C)\n 8. David Alaba 25, D(CL),M(C)\n 9. Jérôme Boateng 29, D(CR)\n 10. Mats Hummels 28, D(C)\n 11. Kingsley Coman 21, AM(LR),FW\n 12. Arjen Robben 33, M(CLR),FW\n 13. Sebastian Rudy 27, D(R),M(CR)\n 14. Thomas Müller 28, M(CLR),FW\n 15. Niklas Süle 22, D(C)\n 16. Rafinha 32, D(CLR),M(R)\n 17. Manuel Neuer 31, GK\n 18. Franck Ribéry 34, AM(L)\n 19. Sven Ulreich 29, GK\n\nEUFA wins : 5\n"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </ScrollView>
+
+</RelativeLayout>

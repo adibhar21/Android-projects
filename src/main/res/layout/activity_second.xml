@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.niu.cs.adityabharadwaj.championstrophy.SecondActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="home"
+        android:text="HOME" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='Summary: F.C. Barcelona is a Spanish football club from Barcelona, Catalonia. They are known for winning the treble (La Liga, the Copa Del Rey, and the UEFA Champions League) all in 1 season, twice, in the 2008-09 season and in the 2014-15 season. Their biggest rival is Real Madrid. Matches between F.C. Barcelona and Real Madrid are called "El Clasico", which means "The Classic" in Spanish. The team has won many tournaments, which is why Barcelona isconsidered one of the best teams in the world. F.C. Barcelona was founded by a group of football players led by Joan Gamper. Their home stadium, Camp Nou is the largest stadium in Europe with a capacity of 99,354.\n\nRoster:\n\n1. Lionel Messi 30, AM(CR),FW\n2. Luis Suárez 30, AM(CLR),FW\n3. Sergi Roberto 25, D(R),M(CR)\n4. Nélson Semedo 23, D(R)\n5. Gerard Piqué 30, D(C)\n6. Jordi Alba 28, D(L)\n7. Sergio Busquets 29, DMC\n8. Ivan Rakitic 29, M(C)\n9. Javier Mascherano 33, D(C),M(C)\n10. Samuel Umtiti 23, D(CL)\n11. Gerard Deulofeu 23, AM(LR)\n12. Denis Suárez 23, AM(CLR)\n13. Andrés Iniesta 33, M(CL)\n14. Marc-André ter Stegen 25, GK\n15. Paulinho 29, M(C)\n16. Lucas Digne 24, D(L)\n17. Paco Alcácer 24, FW\n18. Ousmane Dembélé 20, AM(CLR)\n19. Aleix Vidal 28, D(R),M(LR)\n20. André Gomes 24, M(CL)\n\n\nUEFA wins: 5\n'
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </ScrollView>
+
+</RelativeLayout>
